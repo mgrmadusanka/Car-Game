@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Racer</title>
+    <link rel="icon" type="image/png" href="img/fav_icon.png">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- javascripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+    <h1>Car Racer 1.0</h1>
+    
+    <div class="btnContainer">
+        <button id="go" class="btn">Race!</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+
+    <div id="racetrack">
+        <img src="img/car1.png" alt="Green Car" id="car1" class="car">
+        <img src="img/car2.png" alt="Red Car" id="car2" class="car">
+    </div>
+
+    <div id="raceInfoContainer">
+        <h2>Results</h2>
+        <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+        <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+    </div>
+</body>
+</html>

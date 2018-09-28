@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #444;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 1px #444;
+}
+
+#go {
+    background-color: #77b72f;
+    margin-right: 5px;
+}
+
+#reset {
+    background-color: #fc3;
+    margin-left: 5px;
+}
+
+#racetrack {
+    width: 100%;
+    margin: 30px 0;
+    background-image: url('/img/road.jpg');
+    background-repeat: repeat-x;
+    height: 330px;
+    border-right: 10px dashed #fff;
+    box-sizing: border-box;
+}
+
+.car {
+    display: block;
+    position: relative;
+    left: 0;
+}
+
+#car1 {
+    top: 30px;
+}
+
+#car2 {
+    top: 100px;
+}
+
+#raceInfoContainer {
+    width: 80%;
+    background-color: #333;
+    margin: 0 auto 30px auto;
+    height: 200px;
+}
+
+#raceInfoContainer h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 2px solid #fff;
+}
+
+#raceInfoContainer .raceInfo {
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#raceInfoContainer #raceInfo1 {
+    color: #77b72f;
+}
+
+#raceInfoContainer #raceInfo2 {
+    color: #b82f3e;
+}
+
+#raceInfoContainer .raceInfo span {
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
